@@ -41,7 +41,7 @@ public class Main {
             algorithms.add(new BubbleSortСoctailShaker(Arrays.copyOf(array, array.length)));
         } else {
             for (SortAlgorithm algorithm : algorithms) {
-                algorithm.setArray(array);
+                algorithm.setArray(Arrays.copyOf(array, array.length));
             }
         }
     }
