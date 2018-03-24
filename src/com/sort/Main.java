@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         int[] array = null;
         List<SortAlgorithm> algorithms = new ArrayList<>();
-        int[] numbersOfElements = {8000, 16000, 32000, 64000, 128000};
+        int[] numbersOfElements = {128000, 512000, 1024000, 2048000, 4096000};
 //        int[] numbersOfElements = {8000};
 
         for (int numbersOfElement : numbersOfElements) {
