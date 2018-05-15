@@ -72,7 +72,7 @@ public class Main {
     }
 
     public void read() {
-        try (BufferedReader br = new BufferedReader(new FileReader("C:\\words.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("words.txt"))) {
             String line = null;
             while ((line = br.readLine()) != null) {
                 words.add(line);
@@ -80,7 +80,7 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Error");
         }
-        try (BufferedReader br = new BufferedReader(new FileReader("C:\\numbers.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("numbers.txt"))) {
             String line = null;
             while ((line = br.readLine()) != null) {
                 numbers.add(Integer.valueOf(line));
