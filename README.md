@@ -1,4 +1,5 @@
 SimpleSorting
+
 Number of
 elements = 8000
     algorithm - SelectionSort, durability = 101 ms, sorted = 1
